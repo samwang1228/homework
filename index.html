@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head><!--標題相關 -->
+	<meta charset="utf-8"></meta><!--可使用中文 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+	<title>HomeWork1</title>
+	<script type="text/javascript">
+	var testInput = document.getElementById("testInput");
+	var submitBtn = document.querySelector(".submitBtn");
+	function FsubmitBtn(value) {
+	  var str = "";
+	  var submitValue = testInput.value;
+	  str = submitValue;
+	  alert(str);
+	}
+	submitBtn.addEventListener("click", FsubmitBtn);
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LVQG386FK5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LVQG386FK5');
+</script>
+	<link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+<head/>
+<body ><!--網頁想呈現的 -->
+	<div class="head">紹丞的自我介紹</div> <!--h3為標題 -->
+	<div class="content_shift">
+		<div class="box">
+<!-- 			<h3> 關於我</h3> -->
+			<div><img src="自己.jpg"width="200"style="display:block; margin:auto;"></img></div> 
+		</div>
+		<div class="box">
+			<h3>自我介紹 </h3>
+			<div class="selection2"><span class="selection3">大家好，我是王紹丞</span></div>
+				<div class="selection2"><span class="selection3">就讀長庚大學資訊工程學系</span></div>
+				<div class="selection2"><span class="selection3">平時的興趣是畫圖寫程式</span></div>
+				<div class="selection2"><span class="selection3">玩線上遊戲以及看看Youtube</span></div> 
+		</div>
+		<div class="box">
+			<h3>我的專長</h3>
+			<ul >
+			 <li class="text">素描水彩</li>
+			 <li class="text">Python</li>
+			</ul>
+		</div>
+		<div class="box">
+			<h3>我的社群網站</h3>
+			<ul class="favorite">
+			 <li class="ig"><a href="https://www.instagram.com/samwang1228/">instagram</a></li>
+			 <li class="fb"><a href="https://www.facebook.com/profile.php?id=100007093326898">Facebook</a></li>
+			</ul>
+		</div>
+		<div class="box">
+			<h3> 我的作品</h3>
+			<ul class="demo">
+			 <li class="draw"><a href="https://www.instagram.com/sam_art1228/">我的畫帳</a></li>
+			 <li class="git"><a href="https://github.com/samwang1228/c-project">我的專案</a></li>
+			</ul>
+		</div>
+		<div class="box">
+			<h3>和我聯絡</h3>
+			<div class="content">
+				<form>
+				<label for="testInput">
+				<span style="color: white">填寫訊息</span>
+				<input type="text" placeholder="test" id="testInput" />
+			    <button class="submitBtn" id=btn>SUBMIT</button>
+			    <button type="reset" id=btn>RESET</button>
+				</label>
+				</form>
+				<<!-- span style="color: white">填寫訊息</span></span>><input type="text"/><button id="btn">送出</button> -->
+			</div>
+		</div>
+		<marquee scrollamount="8" ><img src="天竺鼠車車.jpg" width="100" height="100"></marquee>
+		
+	</div>
+	
+</body>
+</html>

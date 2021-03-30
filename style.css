@@ -1,0 +1,130 @@
+html{
+		height: 100%;
+}
+/*標籤名稱選擇器*/
+.head{
+		background-color:#003344;color:white;font-weight:bold;font-size:30px;
+		text-align:center;padding:10px;/*將字設定為中間*/
+	}
+.content_shift{
+		width:1000px;margin-left:auto;margin-right:auto;/*自動尋找父類別的左跟右*/
+	}
+.box{
+	width:280px;padding:10px;margin:10px;/*background-color:#E3E3E3;*/
+	display:inline-block;vertical-align:top;
+	/*text-align:center;height:150px;line-height:30px;/*box 的內部文字置中*/
+}
+.title{
+	font-weight:bold; /*粗體*/
+}
+body{
+	font-size:16px;font-family:"微軟正黑體">;/*統一字體大小字型*/
+	background-image:url('新楓之谷.jpg');
+	background-repeat:no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-color:#171717
+}
+h3{
+	font-size:24px;text-decoration:underline;
+	text-align:center;
+	color:#00B8B8;
+}
+/*class 選擇器*/
+div.content{/*only div套用*/
+	padding:10px;border:1px dashed #888888;
+	line-height: 24px;　　
+	color:#ADADFF;
+}
+/*id選擇器*/
+#btn{
+	border:1px solid #888888;
+	background-color:#ffffff;padding:5px;
+}
+/*虛擬選擇器 
+  其一hover滑鼠碰到目標時，套用設定
+  其二focus當目標取得焦點時，套用設定
+*/
+#btn:hover{
+	background-color:#888888;
+}
+input:focus{
+	border:2px solid #ff0000;
+}
+/*階層選擇器 對指定階層做修改
+*/
+.favorite a{
+	color:#ADADFF
+}
+.demo a{
+	color:#DBDB00;
+}
+
+li.fb {
+	padding: 10px 0 10px 30px;
+	margin: 0;
+	list-style: none;
+	background-image: url("fb.png");
+	background-repeat: no-repeat;
+	background-position: 35% 65%;
+	background-size: 20px;
+	text-align:center;
+}
+li.text {
+	padding: 10px 0 10px 30px;
+	margin: 0;
+	list-style: none;
+	color: white;
+	background-position: 35% 65%;
+	background-size: 20px;
+	text-align:center;
+}
+li.ig {
+	padding: 10px 0 10px 30px;
+	margin: 0;
+	list-style: none;
+	background-image: url("ig.jpg");
+	background-repeat: no-repeat;
+	background-position: 35% 65%;
+	background-size: 20px;
+	text-align:center;
+}
+li.draw {
+	padding: 10px 0 10px 30px;
+	margin: 0;
+	list-style: none;
+	background-image: url("draw.jpg");
+	background-repeat: no-repeat;
+	background-position: 35% 65%;
+	background-size: 20px;
+	text-align:center;
+}
+li.git {
+	padding: 10px 0 10px 30px;
+	margin: 0;
+	list-style: none;
+	background-image: url("git.png");
+	background-repeat: no-repeat;
+	background-position: 35% 65%;
+	background-size: 20px;
+	text-align:center;
+}
+@media screen and (max-width:600px){/*當使用手機時套用此規定*/
+		.content_shift{width:100%;text-align:center;}
+	}
+.selection {
+    /*background: #87d9ff; //背景*/
+    color:#0000E0; 
+    text-align:center;
+}
+.selection2 {
+    /*background: #87d9ff; //背景*/
+    text-align:center;
+}
+.selection3 {
+    background: #00008F; 
+    color:#C9FFFF; 
+ }
+
+
